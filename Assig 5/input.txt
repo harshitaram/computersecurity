@@ -1,0 +1,29 @@
+Text Case: standard
+<span style="color: red;"><script>console.log('oops');</script></span>
+
+
+Test case: capitalize
+<span style="color: red;">Colorful text<ScRiPt>console.log('oops');</sCripT></span>
+
+
+Test case: nested
+<span style="color: red;"><scr<script>ipt>console.log('oops');</scr</script>ipt></span>
+
+Test case: warped img
+<img """><SCRIPT>console.log('oops');</SCRIPT>"\>
+
+Test case: onload
+<img src="https://example.com" onload="console.log('oops');">
+
+Test case: other events
+<img src="https://example.com" onerror="console.log('oops');">
+<img src="https://example.com" onmouseover="console.log('oops');">
+<img src="https://example.com" onclick="console.log('oops')" width="100" height="132";">
+
+Test case: nested
+<span style="color: red;"><scr<script>ipt>console.log('oops');</scr</script>ipt></span>
+
+<script>
+        <scr<script>ipt>alert(1)//</script>
+		var x = "<script>console.log(3)</script>";
+	</script>

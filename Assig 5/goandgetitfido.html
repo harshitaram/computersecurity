@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FetchAPI Problem 0</title>
+</head>
+<body>
+    <header>
+        <h1>CS232 Info</h1>
+    </header>
+    <main id="mainContent">
+       
+    </main>
+
+    <script>
+        
+        async function fetchData() {
+            try {
+                const response = await fetch('cs232.json');
+                if (!response.ok) {
+                    throw new Error('Network response was not ok'); //error catching incase
+                }
+                const data = await response.json();
+
+                var html = '<h2>Instructor</h2>' +
+                           '<p>Name: ' + data.instructor.name + '</p>' +
+                           '<p>CNet: ' + data.instructor.cnet + '</p>' +
+                           '<p>Number of Students: ' + data.instructor.students + '</p>';
+
+                
+                document.getElementById('mainContent').innerHTML = html;
+            } catch (error) {
+                console.error('There was a problem with the fetch operation:', error); //error catching incase
+            }
+        }
+
+        fetchData();
+    </script>
+</body>
+</html>

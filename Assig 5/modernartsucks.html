@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="siteTitle">DOM Manipulation Problem 0</title>
+</head>
+<body>
+    <header>
+        <h1 id="pageTitle">Create Your Own Page</h1>
+    </header>
+    <main>
+        <h2>Fill out the form:</h2>
+        <form id="myForm">
+            <label for="titleInput">New Page Title:</label><br>
+            <input type="text" id="titleInput" name="titleInput"><br>
+            <label for="contentInput">Content:</label><br>
+            <input type="text" id="contentInput" name="contentInput"><br><br>
+            <button type="button" onclick="changePageContent()">Update Page</button>
+        </form>
+        <div id="contentArea">
+            
+        </div>
+    </main>
+
+    <script>
+        function changePageContent() {
+            var newTitle = document.getElementById("titleInput").value;
+
+            var newContent = document.getElementById("contentInput").value;
+
+            
+            document.getElementById("siteTitle").innerText = newTitle;
+
+            document.getElementById("contentArea").innerHTML = "<p>" + newContent + "</p>"; //'inner' tags inspo: https://www.microfocus.com/documentation/silk-test/200/en/silktestworkbench-help-en/SILKTEST-21EEFF3F-DIFFERENCEBETWEENTEXTCONTENTSINNERTEXTINNERHTML-REF.html
+        }
+    </script>
+</body>
+</html>

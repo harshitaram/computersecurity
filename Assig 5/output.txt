@@ -1,0 +1,28 @@
+Text Case: standard
+<span style="color: red;"></span>
+
+
+Test case: capitalize
+<span style="color: red;">Colorful text</span>
+
+
+Test case: nested
+<span style="color: red;"></span>
+
+Test case: warped img
+<img """>"\>
+
+Test case: onload
+<img src="https://example.com" onload="">
+
+Test case: other events
+<img src="https://example.com" onerror="">
+<img src="https://example.com" onmouseover="">
+<img src="https://example.com" onclick="">
+
+Test case: nested
+<span style="color: red;"></span>
+
+
+        <scr
+		var x = "";

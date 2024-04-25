@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript Page for Problem 0</title>
+    </head>
+<body>
+    <header>
+        <h1>Color-changing page</h1>
+    </header>
+    <main>
+        <p>Black and yellow, black and yellow, black and yellow....</p>
+        <button id="changeColorButton">Change Background Color (Gender Reveal Edition)</button>
+    </main>
+
+    <script>
+
+        var isInitialColor = true;
+
+        var initialColor = "lightblue";
+
+        function generateLightBlueColor() {
+            document.body.style.backgroundColor = initialColor;
+        }
+
+        function changeBackgroundColor() {
+            // interpreted question as button toggles between initial color and new color
+            if (isInitialColor) {
+                // Set the secondary color to pink
+                var newColor = "lightpink";
+                document.body.style.backgroundColor = newColor;
+            } else {
+                // Set the initial light blue color
+                document.body.style.backgroundColor = initialColor;
+            }
+            
+            isInitialColor = !isInitialColor;
+        }
+
+        generateLightBlueColor();
+
+        document.getElementById("changeColorButton").addEventListener("click", changeBackgroundColor);
+    </script>
+</body>
+</html>

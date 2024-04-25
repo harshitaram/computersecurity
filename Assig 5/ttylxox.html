@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XMLHttpRequest Problem 0</title>
+</head>
+<body>
+    <header>
+        <h1>CS232 Info</h1>
+    </header>
+    <main id="mainContent">
+        <!-- Content will be added here -->
+    </main>
+
+    <script>
+       
+        var xhr = new XMLHttpRequest();
+
+        xhr.open('GET', 'cs232.json', true);
+
+        xhr.onload = function() { //success check
+           
+            if (xhr.status === 200) {
+              
+                var data = JSON.parse(xhr.responseText);
+
+                var html = '<h2>Instructor</h2>' +
+                           '<p>Name: ' + data.instructor.name + '</p>' +
+                           '<p>CNet: ' + data.instructor.cnet + '</p>' +
+                           '<p>Number of Students: ' + data.instructor.students + '</p>';
+
+                document.getElementById('mainContent').innerHTML = html;
+            }
+        };
+
+        xhr.send();
+    </script>
+</body>
+</html>

