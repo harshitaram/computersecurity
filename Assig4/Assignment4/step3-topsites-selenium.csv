@@ -1,0 +1,417 @@
+1,google.com,HTTPS only
+2,facebook.com,HTTPS only
+3,amazonaws.com,HTTP only
+4,a-msedge.net,neither
+5,microsoft.com,HTTPS only
+6,googleapis.com,HTTPS only
+7,apple.com,HTTPS only
+8,youtube.com,HTTPS only
+9,akamaiedge.net,neither
+10,akamai.net,neither
+11,twitter.com,HTTPS only
+12,instagram.com,HTTPS only
+13,googlevideo.com,both
+14,azure.com,HTTPS only
+15,gstatic.com,HTTPS only
+16,cloudflare.com,HTTPS only
+17,linkedin.com,HTTPS only
+18,live.com,HTTPS only
+19,tiktokcdn.com,neither
+20,office.com,HTTPS only
+21,doubleclick.net,HTTPS only
+22,windowsupdate.com,neither
+23,akadns.net,neither
+24,googletagmanager.com,HTTPS only
+25,netflix.com,HTTPS only
+26,apple-dns.net,neither
+27,fbcdn.net,HTTPS only
+28,amazon.com,HTTPS only
+29,trafficmanager.net,neither
+30,microsoftonline.com,neither
+31,wikipedia.org,HTTPS only
+32,bing.com,HTTPS only
+33,fastly.net,HTTPS only
+34,icloud.com,HTTPS only
+35,googleusercontent.com,HTTPS only
+36,l-msedge.net,neither
+37,domaincontrol.com,neither
+38,wordpress.org,HTTPS only
+39,root-servers.net,neither
+40,gtld-servers.net,neither
+41,youtu.be,HTTPS only
+42,yahoo.com,HTTPS only
+43,digicert.com,HTTPS only
+44,aaplimg.com,neither
+45,mail.ru,HTTPS only
+46,pinterest.com,HTTPS only
+47,github.com,HTTPS only
+48,ui.com,HTTPS only
+49,tiktokv.com,HTTPS only
+50,t-msedge.net,neither
+51,sharepoint.com,HTTPS only
+52,windows.net,both
+53,nflxso.net,neither
+54,adobe.com,HTTPS only
+55,googlesyndication.com,HTTPS only
+56,goo.gl,HTTPS only
+57,cloudfront.net,neither
+58,spotify.com,HTTPS only
+59,wordpress.com,HTTPS only
+60,vimeo.com,HTTPS only
+61,google-analytics.com,HTTPS only
+62,gandi.net,HTTPS only
+63,s-msedge.net,neither
+64,office.net,neither
+65,gvt2.com,neither
+66,zoom.us,HTTPS only
+67,msn.com,HTTPS only
+68,bit.ly,HTTPS only
+69,skype.com,HTTPS only
+70,edgekey.net,neither
+71,bytefcdn-oversea.com,neither
+72,office365.com,HTTPS only
+73,whatsapp.net,HTTPS only
+74,yandex.net,both
+75,cloudflare.net,HTTPS only
+76,whatsapp.com,HTTPS only
+77,mozilla.org,HTTPS only
+78,qq.com,HTTPS only
+79,ntp.org,HTTPS only
+80,tiktok.com,both
+81,wac-msedge.net,neither
+82,roblox.com,HTTPS only
+83,app-measurement.com,HTTPS only
+84,blogspot.com,HTTPS only
+85,intuit.com,HTTPS only
+86,cloudflare-dns.com,HTTPS only
+87,googledomains.com,HTTPS only
+88,ytimg.com,neither
+89,outlook.com,HTTPS only
+90,reddit.com,HTTPS only
+91,gvt1.com,neither
+92,trbcdn.net,neither
+93,snapchat.com,HTTPS only
+94,yandex.ru,HTTPS only
+95,opera.com,HTTPS only
+96,cdn77.org,neither
+97,europa.eu,HTTPS only
+98,amazon-adsystem.com,neither
+99,epicgames.com,both
+100,pki.goog,HTTPS only
+101,nic.ru,HTTPS only
+102,baidu.com,HTTPS only
+103,macromedia.com,HTTP only
+104,dropbox.com,HTTPS only
+105,adnxs.com,neither
+106,tumblr.com,HTTPS only
+107,netflix.net,neither
+108,azureedge.net,neither
+109,nih.gov,HTTPS only
+110,criteo.com,HTTPS only
+111,ttlivecdn.com,neither
+112,b-msedge.net,neither
+113,cloudapp.net,neither
+114,msedge.net,neither
+115,gravatar.com,HTTPS only
+116,comcast.net,HTTP only
+117,lencr.org,HTTPS only
+118,flickr.com,HTTPS only
+119,one.one,HTTP only
+120,nytimes.com,HTTPS only
+121,github.io,HTTPS only
+122,windows.com,both
+123,health.mil,HTTPS only
+124,msftncsi.com,neither
+125,aiv-cdn.net,neither
+126,a2z.com,neither
+127,akamaized.net,neither
+128,bytefcdn-ttpeu.com,neither
+129,sentry.io,HTTPS only
+130,webex.com,HTTPS only
+131,t.me,HTTPS only
+132,unity3d.com,HTTPS only
+133,tiktokcdn-us.com,neither
+134,cdninstagram.com,neither
+135,registrar-servers.com,HTTP only
+136,googleadservices.com,HTTPS only
+137,samsung.com,HTTPS only
+138,rubiconproject.com,HTTPS only
+139,spo-msedge.net,neither
+140,ggpht.com,neither
+141,edgesuite.net,neither
+142,wa.me,HTTPS only
+143,zemanta.com,HTTPS only
+144,sberdevices.ru,HTTPS only
+145,forms.gle,HTTPS only
+146,omtrdc.net,neither
+147,paypal.com,both
+148,apache.org,HTTPS only
+149,casalemedia.com,HTTPS only
+150,tds.net,HTTPS only
+151,rbxcdn.com,neither
+152,amazonvideo.com,HTTPS only
+153,cnn.com,HTTPS only
+154,facebook-hardware.com,HTTPS only
+155,wsdvs.com,neither
+156,meraki.com,HTTPS only
+157,appsflyersdk.com,neither
+158,soundcloud.com,HTTPS only
+159,2mdn.net,neither
+160,e2ro.com,neither
+161,archive.org,HTTPS only
+162,o365filtering.com,neither
+163,nr-data.net,neither
+164,miit.gov.cn,neither
+165,t.co,HTTPS only
+166,mozilla.com,HTTPS only
+167,salesforceliveagent.com,HTTPS only
+168,medium.com,HTTPS only
+169,vk.com,HTTPS only
+170,theguardian.com,HTTPS only
+171,salesforce.com,HTTPS only
+172,gmail.com,both
+173,w3.org,HTTPS only
+174,appsflyer.com,HTTPS only
+175,pubmatic.com,HTTPS only
+176,tfbnw.net,neither
+177,applovin.com,HTTPS only
+178,forbes.com,both
+179,mangosip.ru,HTTP only
+180,demdex.net,neither
+181,worldfcdn2.com,neither
+182,taboola.com,HTTPS only
+183,ebay.com,HTTPS only
+184,bbc.co.uk,HTTPS only
+185,azurewebsites.net,neither
+186,dns.google,HTTPS only
+187,rocket-cdn.com,neither
+188,rambler.ru,HTTPS only
+189,dual-s-msedge.net,neither
+190,googleblog.com,HTTPS only
+191,adobe.io,HTTPS only
+192,akamaihd.net,neither
+193,mzstatic.com,HTTPS only
+194,bbc.com,HTTPS only
+195,xiaomi.com,HTTPS only
+196,creativecommons.org,HTTPS only
+197,abusix.zone,neither
+198,myfritz.net,HTTPS only
+199,sourceforge.net,HTTPS only
+200,smartadserver.com,HTTPS only
+201,kaspersky.com,HTTPS only
+202,sciencedirect.com,HTTPS only
+203,cisco.com,HTTPS only
+204,discord.com,HTTPS only
+205,shifen.com,neither
+206,playstation.net,neither
+207,imdb.com,HTTPS only
+208,cdn-apple.com,neither
+209,hp.com,HTTPS only
+210,miui.com,HTTPS only
+211,mit.edu,HTTPS only
+212,shopify.com,HTTPS only
+213,nginx.org,HTTPS only
+214,userapi.com,HTTPS only
+215,dnsowl.com,neither
+216,twitch.tv,HTTPS only
+217,slack.com,HTTPS only
+218,comfortel.pro,HTTPS only
+219,att.net,HTTPS only
+220,facebook.net,neither
+221,who.int,HTTPS only
+222,ubuntu.com,HTTPS only
+223,googletagservices.com,neither
+224,cedexis.net,neither
+225,scorecardresearch.com,HTTPS only
+226,openx.net,HTTPS only
+227,washingtonpost.com,HTTPS only
+228,edgecdn.ru,neither
+229,nginx.com,HTTPS only
+230,ampproject.org,HTTPS only
+231,doubleverify.com,HTTPS only
+232,adsrvr.org,HTTPS only
+233,wixsite.com,neither
+234,go.com,HTTPS only
+235,amazon.co.uk,HTTPS only
+236,researchgate.net,HTTPS only
+237,issuu.com,HTTPS only
+238,wikimedia.org,HTTPS only
+239,youtube-nocookie.com,HTTPS only
+240,msftconnecttest.com,neither
+241,b-cdn.net,HTTPS only
+242,t-mobile.com,HTTPS only
+243,launchdarkly.com,HTTPS only
+244,jomodns.com,neither
+245,aliyuncs.com,HTTPS only
+246,android.com,HTTPS only
+247,mcafee.com,HTTPS only
+248,aol.com,HTTPS only
+249,hubspot.com,HTTPS only
+250,wp.com,HTTPS only
+251,cdc.gov,HTTPS only
+252,hipages.com.au,HTTPS only
+253,dailymail.co.uk,both
+254,tinyurl.com,both
+255,comcast.com,HTTP only
+256,azurefd.net,neither
+257,opendns.com,HTTPS only
+258,atomile.com,neither
+259,dnsmadeeasy.com,HTTPS only
+260,amazon.dev,neither
+261,dns.cn,neither
+262,sc-gw.com,neither
+263,booking.com,HTTPS only
+264,weebly.com,HTTPS only
+265,reuters.com,HTTPS only
+266,appcenter.ms,HTTPS only
+267,safebrowsing.apple,neither
+268,harvard.edu,HTTPS only
+269,oracle.com,HTTPS only
+270,doi.org,HTTPS only
+271,360yield.com,HTTPS only
+272,slideshare.net,HTTPS only
+273,canva.com,HTTPS only
+274,rlcdn.com,neither
+275,sharethrough.com,HTTPS only
+276,3lift.com,HTTPS only
+277,media-amazon.com,neither
+278,espn.com,HTTPS only
+279,force.com,HTTPS only
+280,bidswitch.net,HTTP only
+281,www.gov.uk,HTTPS only
+282,ibm.com,HTTPS only
+283,adriver.ru,both
+284,moatads.com,neither
+285,roku.com,HTTPS only
+286,teamviewer.com,HTTPS only
+287,nist.gov,HTTPS only
+288,media.net,HTTPS only
+289,google.de,HTTPS only
+290,vungle.com,HTTPS only
+291,weibo.com,HTTPS only
+292,wildberries.ru,HTTPS only
+293,google.co.uk,HTTPS only
+294,grammarly.com,HTTPS only
+295,indeed.com,HTTPS only
+296,bloomberg.com,HTTPS only
+297,etsy.com,HTTPS only
+298,samsungqbe.com,neither
+299,crashlytics.com,HTTPS only
+300,adsafeprotected.com,HTTP only
+301,supersonicads.com,both
+302,steampowered.com,HTTPS only
+303,dailymotion.com,HTTPS only
+304,wsj.com,HTTPS only
+305,wiley.com,HTTPS only
+306,samsungcloudsolution.com,neither
+307,reg.ru,HTTPS only
+308,elasticbeanstalk.com,both
+309,google.com.br,HTTPS only
+310,name-services.com,neither
+311,ksyuncdn.com,neither
+312,nature.com,HTTPS only
+313,jsdelivr.net,neither
+314,quantserve.com,neither
+315,dell.com,HTTPS only
+316,php.net,HTTPS only
+317,msidentity.com,neither
+318,criteo.net,HTTPS only
+319,weather.com,HTTPS only
+320,twimg.com,neither
+321,stripe.com,HTTPS only
+322,branch.io,HTTPS only
+323,un.org,HTTPS only
+324,cdngslb.com,neither
+325,alibabadns.com,neither
+326,businessinsider.com,HTTPS only
+327,datadoghq.com,HTTPS only
+328,eset.com,HTTPS only
+329,lijit.com,HTTPS only
+330,dotomi.com,HTTPS only
+331,checkpoint.com,HTTPS only
+332,springer.com,HTTPS only
+333,yahoo.co.jp,HTTPS only
+334,quora.com,HTTPS only
+335,imrworldwide.com,neither
+336,godaddy.com,both
+337,mtgglobals.com,neither
+338,cnbc.com,HTTPS only
+339,adobedtm.com,neither
+340,list-manage.com,both
+341,drom.ru,HTTPS only
+342,aws.dev,neither
+343,ea.com,HTTPS only
+344,adform.net,HTTPS only
+345,outbrain.com,HTTPS only
+346,id5-sync.com,HTTPS only
+347,nasa.gov,HTTPS only
+348,stanford.edu,HTTPS only
+349,sc-cdn.net,neither
+350,unsplash.com,HTTPS only
+351,mi.com,HTTPS only
+352,stbid.ru,both
+353,gnu.org,HTTPS only
+354,bamgrid.com,neither
+355,ring.com,HTTPS only
+356,foxnews.com,HTTPS only
+357,elisa.fi,HTTPS only
+358,liadm.com,neither
+359,viator.com,HTTPS only
+360,discord.gg,HTTPS only
+361,churchcenter.com,HTTPS only
+362,1c.ru,HTTPS only
+363,nease.net,HTTP only
+364,npr.org,HTTPS only
+365,stackoverflow.com,HTTPS only
+366,dzeninfra.ru,neither
+367,teads.tv,HTTPS only
+368,3gppnetwork.org,neither
+369,go-mpulse.net,neither
+370,sophos.com,HTTPS only
+371,cpanel.net,HTTPS only
+372,clarity.ms,both
+373,trendmicro.com,HTTPS only
+374,eventbrite.com,HTTPS only
+375,rocket-cdnbp.com,neither
+376,xboxlive.com,both
+377,xcal.tv,neither
+378,wbx2.com,HTTPS only
+379,inner-active.mobi,HTTP only
+380,pv-cdn.net,neither
+381,sohu.com,HTTPS only
+382,aliexpress.com,HTTPS only
+383,openai.com,HTTPS only
+384,amazonalexa.com,neither
+385,giphy.com,HTTPS only
+386,globo.com,HTTPS only
+387,hicloud.com,neither
+388,scdn.co,neither
+389,wix.com,HTTPS only
+390,usatoday.com,HTTPS only
+391,time.com,HTTPS only
+392,rackspace.net,neither
+393,telegraph.co.uk,HTTPS only
+394,azure-dns.com,neither
+395,ups.com,HTTPS only
+396,linktr.ee,HTTPS only
+397,avcdn.net,neither
+398,taobao.com,HTTPS only
+399,goodreads.com,HTTPS only
+400,alicdn.com,both
+401,walmart.com,both
+402,arubanetworks.com,both
+403,hichina.com,neither
+404,hugedomains.com,both
+405,netangels.ru,HTTPS only
+406,forter.com,HTTPS only
+407,telecid.ru,neither
+408,tradingview.com,HTTPS only
+409,staples.com,HTTPS only
+410,g.page,HTTPS only
+411,mynetname.net,neither
+412,sfx.ms,neither
+413,statista.com,HTTPS only
+414,amazon.de,HTTPS only
+415,blogger.com,HTTPS only
+416,chinamobile.com,neither
+417,badoo.com,HTTPS only
